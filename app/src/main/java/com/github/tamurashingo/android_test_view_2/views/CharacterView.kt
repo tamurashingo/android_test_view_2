@@ -25,6 +25,7 @@ class CharacterView : View {
 
     override fun onDraw(canvas: Canvas?) {
         canvas?.drawBitmap(bitmap, 0f, 0f, paint)
+        canvas?.drawBitmap(bitmap, 32f, 0f, paint)
     }
 
 }
